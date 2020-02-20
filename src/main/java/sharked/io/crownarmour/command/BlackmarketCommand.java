@@ -8,7 +8,7 @@ import sharked.io.crownarmour.menu.menus.LoadMenu;
 import sharked.io.crownarmour.user.UserData;
 import sharked.io.lib.api.command.command.CommandMeta;
 
-@CommandMeta(command = {"bm662232"} ,permission = "blackmarket.use")
+@CommandMeta(command = {"blackmarket"} ,permission = "blackmarket.use")
 public class BlackmarketCommand {
 
     private CrownArmour armour;
