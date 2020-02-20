@@ -1,0 +1,105 @@
+settings:
+  bishop:
+    title: '&7Bishop'
+    rows: 2
+  prince:
+    title: '&7Prince'
+    rows: 2
+  king:
+    title: '&7King'
+    rows: 2
+  load:
+    title: '&5Blackmarket'
+    rows: 3
+  back-mat: BARRIER
+  background:
+    mat: STAINED_GLASS_PANE
+    data: 15
+messages:
+  no-money: '&cYou do not have enough to purchase this!'
+  purchased: '&aYou just purchased an item from the blackmarket'
+bishop:
+  1:
+    mat: STONE
+    name: '&7Stone Block'
+    lore:
+      - '&7We charge &a$%price%'
+    price: 1.0
+    commands:
+      - 'say %player%'
+      - ''
+      - ''
+    slot: 0
+  2:
+    mat: BARRIER
+    name: '&cBack'
+    lore:
+      - '&7Click to return to main page'
+    price: 0
+    slot: 9
+prince:
+  1:
+    mat: STONE
+    name: '&7Stone Block'
+    lore:
+      - '&7We charge &a$%price%'
+    price: 1.0
+    commands:
+      - 'kit test %player%'
+      - ''
+      - ''
+    slot: 0
+  2:
+    mat: BARRIER
+    name: '&cBack'
+    lore:
+      - '&7Click to return to main page'
+    price: 0
+    slot: 9
+king:
+  1:
+    mat: STONE
+    name: '&7Stone Block'
+    lore:
+      - '&7We charge &a$%price%'
+    price: 1.0
+    commands:
+      - 'kit test %player%'
+      - ''
+      - ''
+    slot: 0
+  2:
+    mat: BARRIER
+    name: '&cBack'
+    lore:
+      - '&7Click to return to main page'
+    price: 0
+    slot: 9
+load:
+  1:
+    gui: 'king'
+    mat: GOLD_CHESTPLATE
+    name: '&6&lLengendary King'
+    lore:
+      - '&7 (( Click to view all items ))'
+      - ''
+      - '&7server.com'
+    slot: 10
+  2:
+    gui: 'prince'
+    mat: IRON_CHESTPLATE
+    name: '&3&lLegendary Prince'
+    lore:
+      - '&7 (( Click to view all items ))'
+      - ''
+      - '&7server.com'
+    slot: 13
+  3:
+    gui: 'bishop'
+    mat: LEATHER_CHESTPLATE
+    name: '&a&lLegendary Bishop'
+    lore:
+      - '&7 (( Click to view all items ))'
+      - ''
+      - '&7server.com'
+    slot: 16

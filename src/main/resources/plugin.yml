@@ -1,0 +1,7 @@
+name: CrownArmour
+version: ${project.version}
+main: sharked.io.crownarmour.CrownArmour
+authors: [Shark]
+description: Developed By Sharked.io
+website: https://sharked.io
+soft-depend: [Vault]
